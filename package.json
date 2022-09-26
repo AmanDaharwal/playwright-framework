@@ -1,0 +1,28 @@
+{
+  "name": "playwright-test-automation-framework",
+  "version": "0.1.0",
+  "description": "Playwright Test Automation Framework",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npm run browser_test && npm run mobile_test",
+    "browser_test": "npx playwright test --config=config/browsers.config.js",
+    "mobile_test": "npx playwright test --config=config/mobile_devices.config.js",
+    "chrome_test": "npx playwright test --config=config/browsers.config.js --project=Chrome",
+    "edge_test": "npx playwright test --config=config/browsers.config.js --project=Edge",
+    "firefox_test": "npx playwright test --config=config/browsers.config.js --project=Firefox",
+    "safari_test": "npx playwright test --config=config/browsers.config.js --project=Safari",
+    "galaxys10_test": "npx playwright test --config=config/mobile_devices.config.js --project=Galaxy_S10",
+    "ipadpro11_test": "npx playwright test --config=config/mobile_devices.config.js --project=iPad_Pro_11",
+    "iphone11_test": "npx playwright test --config=config/mobile_devices.config.js --project=iPhone11"
+  },
+  "author": "Aman Daharwal",
+  "license": "",
+  "devDependencies": {
+    "@playwright/test": "^1.26.0",
+    "allure-playwright": "^2.0.0-beta.19",
+    "playwright": "1.26.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
