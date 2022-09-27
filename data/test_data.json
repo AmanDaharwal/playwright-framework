@@ -1,0 +1,7 @@
+{
+    "authenticationTest" : {
+        "timeout": 120000,
+        "errorMessage": "Authentication failed."
+    }
+  
+}

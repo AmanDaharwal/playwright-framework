@@ -1,0 +1,3 @@
+module.exports.BREADCRUMBS = {
+  BREADCRUM1: "BREADCRUMB"
+};
